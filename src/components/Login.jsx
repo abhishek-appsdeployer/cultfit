@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
 import auth from '@react-native-firebase/auth';
 
-const Login = () => {
+const Login = ({navigation}) => {
   const [phoneNumber, setPhoneNumber] = useState('');
   const [verificationCode, setVerificationCode] = useState('');
   const [confirmation, setConfirmation] = useState(null);
@@ -24,6 +24,8 @@ const Login = () => {
         verificationCode
       );
       const userCredential = await auth().signInWithCredential(credential);
+      alert("successfully login")
+      navigation.navigate("expert")
       // Do something with the userCredential object, such as update your app's UI or store the user's data in your database
     } catch (error) {
       setErrorMessage(error.message);

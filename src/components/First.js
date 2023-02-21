@@ -5,7 +5,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 const First = ({navigation}) => {
   return (
     <ImageBackground
-      onPress={() => navigation.navigate('second')}
+      onPress={() => navigation.navigate('signin')}
       source={{
         uri: 'https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
       }}
@@ -16,7 +16,7 @@ const First = ({navigation}) => {
         paddingTop: 20,
         // height:800
       }}>
-      <View style={{}} onPress={() => navigation.navigate('second')}>
+      <View style={{}} onPress={() => navigation.navigate('signin')}>
         <Text
           style={{
             color: 'white',
@@ -39,7 +39,7 @@ const First = ({navigation}) => {
       <View style={{marginTop: 'auto', padding: 10, flexDirection: 'row'}}>
         <View style={{flex: 1}}>
           <Icon
-            onPress={() => navigation.navigate('login')}
+            onPress={() => navigation.navigate('signin')}
             style={{textAlign: 'center'}}
             name="apple"
             size={30}
@@ -54,8 +54,9 @@ const First = ({navigation}) => {
         </View>
 
         <View style={{flex: 1}}>
-          <Icon
-            onPress={() => navigation.navigate('second')}
+          
+           <Icon
+            onPress={() => navigation.navigate('home')}
             style={{textAlign: 'center'}}
             name="apple"
             size={30}

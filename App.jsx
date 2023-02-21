@@ -11,6 +11,9 @@ import Badminton from './src/components/Badminton';
 import Fitness from './src/components/Fitness';
 import Category from './src/components/Category';
 import Login from './src/components/Login';
+import Signin from './src/components/Signin';
+import Otp from './src/components/Otp';
+import Home from './src/components/Home';
 
 const Stack = createNativeStackNavigator();
 const App = () => {
@@ -18,7 +21,7 @@ const App = () => {
     <>
     <NavigationContainer>
        <Stack.Navigator>
-        <Stack.Screen options={{headerShown: false}} name="Home" component={First} />
+        <Stack.Screen options={{headerShown: false}} name="first" component={First} />
         <Stack.Screen options={{headerShown: false}} name="second" component={Second} />
         <Stack.Screen options={{headerShown: false}} name="premium" component={Premiumfitnes} />
         <Stack.Screen options={{headerShown: false}} name="live" component={Live} />
@@ -27,6 +30,9 @@ const App = () => {
         <Stack.Screen options={{headerShown: false}} name="fitness" component={Fitness} />
         <Stack.Screen options={{headerShown: false}} name="category" component={Category} />
         <Stack.Screen options={{headerShown: false}} name="login" component={Login} />
+        <Stack.Screen options={{headerShown: false}} name="signin" component={Signin} />
+        <Stack.Screen options={{headerShown: false}} name="otp" component={Otp} />
+        <Stack.Screen options={{headerShown: false}} name="home" component={Home} />
       </Stack.Navigator>
     </NavigationContainer>
     </>
