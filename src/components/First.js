@@ -39,7 +39,7 @@ const First = ({navigation}) => {
       <View style={{marginTop: 'auto', padding: 10, flexDirection: 'row'}}>
         <View style={{flex: 1}}>
           <Icon
-            onPress={() => navigation.navigate('second')}
+            onPress={() => navigation.navigate('login')}
             style={{textAlign: 'center'}}
             name="apple"
             size={30}

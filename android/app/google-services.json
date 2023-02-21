@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "720664585437",
+    "project_id": "cultfitauth",
+    "storage_bucket": "cultfitauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720664585437:android:ddb659457afed4cdafa734",
+        "android_client_info": {
+          "package_name": "com.cultfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720664585437-sitvagp76k075hmcb3qaujitu2too2cn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cultfit",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "720664585437-5vqqo1m7m4ae4avl6p99vtnujicukr1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCotnmkk1XasBmtaLp_WyqQG060mrmKfbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720664585437-5vqqo1m7m4ae4avl6p99vtnujicukr1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

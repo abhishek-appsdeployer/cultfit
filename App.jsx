@@ -10,6 +10,7 @@ import Expert from './src/components/Expert';
 import Badminton from './src/components/Badminton';
 import Fitness from './src/components/Fitness';
 import Category from './src/components/Category';
+import Login from './src/components/Login';
 
 const Stack = createNativeStackNavigator();
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         <Stack.Screen options={{headerShown: false}} name="badminton" component={Badminton} />
         <Stack.Screen options={{headerShown: false}} name="fitness" component={Fitness} />
         <Stack.Screen options={{headerShown: false}} name="category" component={Category} />
+        <Stack.Screen options={{headerShown: false}} name="login" component={Login} />
       </Stack.Navigator>
     </NavigationContainer>
     </>
